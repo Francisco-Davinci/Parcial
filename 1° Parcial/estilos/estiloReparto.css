@@ -1,0 +1,36 @@
+a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+ 
+}
+
+p{
+    background-color: black;
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#Inicio {
+    margin-left: 50px;
+    
+}
+
+#About {
+    margin-left: 200px;
+}
+
+#Produccion {
+    margin-left: 200px;
+}
+
+#Curiosidades {
+    margin-left: 200px;
+}

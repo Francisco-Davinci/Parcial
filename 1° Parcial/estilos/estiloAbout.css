@@ -1,0 +1,42 @@
+a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+ 
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+li{
+    background-color: black;
+}
+
+p{
+    margin-top: 20px;
+    background-color: black;
+}
+
+
+#Inicio {
+    margin-left: 100px;
+    
+}
+
+#Reparto {
+    margin-left: 200px;
+}
+
+#Produccion {
+    margin-left: 200px;
+}
+
+#Curiosidades {
+    margin-left: 200px;
+}

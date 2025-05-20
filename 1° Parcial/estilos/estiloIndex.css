@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'StarJedi-DGRW';
+    src: url(../fuentes/StarJedi-DGRW.ttf) format('truetype');
+}
+
+#Banner {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: white;
+    font-family: 'StarJedi-DGRW', sans-serif;
+    color: black;
+    padding: 10px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+#About {
+    margin-left: 350px;
+}
+
+#Reparto {
+    margin-left: 200px;
+}
+
+#Produccion {
+    margin-left: 200px;
+}
+
+#Curiosidades {
+    margin-left: 200px;
+}
+
+#CuentaX {    
+    color: white;
+    margin-left: 700px;
+    background-color: black;
+    padding: 10px;
+}
+
+#Insta {
+    color: white;
+    margin-left: 100px;
+    background-color: black;
+    padding: 10px;
+}

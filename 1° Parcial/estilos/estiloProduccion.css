@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+#Inicio {
+    margin-left: 50px;
+    
+}
+
+#About {
+    margin-left: 200px;
+}
+
+#Reparto {
+    margin-left: 200px;
+}
+
+#Curiosidades {
+    margin-left: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+ 
+}
+
+
+ol {
+    list-style: none;
+}
+
