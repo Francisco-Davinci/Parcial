@@ -5,28 +5,119 @@ body {
 header {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 main {
-    background-image: url(imagenes/wos-descartable\ 1.png);
+    background-image: url(imagenes/wos-descartable.jpg);
     width: 100%;
     height: 1080px;
 }
 
-#banner {
-    width: 80%;
-    margin: 0 auto;
-    height: 500.12px;
+#menu-hamburgesa:target {
+    right: 0;
+    z-index: 999;
+}
+
+#menu-hamburgesa {
+    background-color: white;
+    width: 400px;
+    height: 100%px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    right: -1000px;
+    transition: right .7s ease;
+}
+
+.cancion {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#logo {
+    width: 90px;
+    height: 70px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+#titulo-video {
+    padding-top: 10%;
+    text-align: center;
+    padding-right: 40%;
+} 
+
+#banner {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 h1 {
     color: white;
+    font-family: "Kdam Thmor Pro", sans-serif;
 }
 
-h2 {
+#principales {
+    font-size: 70px;
+}
+
+#video-arrancarmelo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones {
+    width: 100%;
+    height: 100%;
+    background-size: cover;      
+    background-repeat: no-repeat;  
+    background-position: center 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#morfeo {
+    background-image: url(imagenes/WOS.jpeg);
+   
+}
+
+#quemaras {
+    background-image: url(imagenes/WOS-ESTADIO.jpg);
+}
+
+#descartable {
+    background-image: url(imagenes/wos-descartable-2.jpg);
+}
+
+#nuevas-coordenadas {
+    background-image: url(imagenes/WOS-ULTIMA.jpg);
+}
+
+#arrancarmelo {
+    background-image: url(imagenes/ARRANCARMELO-IMAGEN.jpg);  
+    background-position: center;   
+    gap: 150px;
+}
+
+h2, h3 {
     color: white;
-    margin-left: 4.5%;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 32px;
+    margin-top: 0px;
 }
