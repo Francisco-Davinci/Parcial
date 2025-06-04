@@ -14,6 +14,28 @@ main {
     height: 1080px;
 }
 
+#menu-hamburgesa:target ~ #abrir {
+    display: none;
+}
+
+#abrir, #cerrar {
+    margin: 0px 12%;
+    position: fixed;
+}
+
+#cerrar {
+    display: none;
+}
+
+#cerrar-img {
+    width: 70px;
+    height: 70px;
+}
+
+#menu-hamburgesa:target ~ #cerrar {
+    display: inline-block;
+}
+
 #menu-hamburgesa:target {
     right: 0;
     z-index: 999;
@@ -29,6 +51,7 @@ main {
     position: fixed;
     right: -1000px;
     transition: right .7s ease;
+    margin-top: 93px;
 }
 
 .cancion {
@@ -68,6 +91,12 @@ button {
 h1 {
     color: white;
     font-family: "Kdam Thmor Pro", sans-serif;
+    display: inline-block;
+    margin: 0 6%;
+}
+
+#logo-link {
+    margin: 0 15%;  
 }
 
 #principales {
