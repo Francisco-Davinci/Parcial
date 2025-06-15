@@ -1,36 +1,35 @@
-a {
-    background-color: white;
-    color: black;
-    padding: 10px;
- 
-}
-
 p{
     background-color: black;
+    width: 500px;
 }
 
 body {
     text-align: center;
 }
 
+#Inicio {
+    justify-content: right;
+    gap: 350px
+}
+
+#abrir, #cerrar {
+    margin-right: 300px;
+}
+
+#menu-hamburgesa{
+    top: 13%;
+}
+
+.info-foto{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+
+
 ul {
     list-style: none;
     padding: 0px;
-}
-
-#Inicio {
-    margin-left: 50px;
-    
-}
-
-#About {
-    margin-left: 200px;
-}
-
-#Produccion {
-    margin-left: 200px;
-}
-
-#Curiosidades {
-    margin-left: 200px;
 }

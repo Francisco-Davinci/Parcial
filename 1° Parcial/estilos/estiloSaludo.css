@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'StarJedi-DGRW';
+    src: url(../fuentes/StarJedi-DGRW.ttf) format('truetype');
+}
+
+body {
+    background-image: url(../imagenes/fondo.estrellado.jpeg) ;
+}
+
+#comentario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2{
+    font-family: 'StarJedi-DGRW', sans-serif;
+    color:white;
+}

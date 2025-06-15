@@ -2,37 +2,36 @@ body {
     text-align: center;
 }
 
-#Inicio {
-    margin-left: 50px;
-    
-}
-
-#About {
-    margin-left: 200px;
-}
-
-#Reparto {
-    margin-left: 200px;
-}
-
-#Curiosidades {
-    margin-left: 200px;
-}
-
 ul {
     list-style: none;
+    padding: 0px;
+    width: 500px;
+}
+
+#menu-hamburgesa {
+    top: 13%
+}
+
+#Inicio {
+    justify-content: right;
+    gap: 260px;
 }
 
 
-a {
-    background-color: white;
-    color: black;
-    padding: 10px;
- 
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#abrir, #cerrar {
+    margin-right: 200px;
+}
 
 ol {
     list-style: none;
+    padding: 0px;
+    width: 500px;
 }
 

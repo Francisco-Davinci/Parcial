@@ -2,38 +2,27 @@ body{
     text-align: center;
 }
 
-ul{
-    list-style: none;
-}
-
-
-
-ol {
-    list-style: none;
-}
-
-a {
-    background-color: white;
-    color: black;
-    padding: 10px;
- 
-}
-
-
-
 #Inicio {
-    margin-left: 30px;
-    
+    justify-content: right;
+    gap: 370px;
 }
 
-#About {
-    margin-left: 200px;
+#abrir, #cerrar {
+    margin-right: 200px;
 }
 
-#Reparto {
-    margin-left: 200px;
+#menu-hamburgesa {
+    top: 14%;
 }
 
-#Produccion {
-    margin-left: 200px;
+ol, ul {
+    list-style: none;
+    width: 550px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

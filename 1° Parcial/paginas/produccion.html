@@ -8,29 +8,60 @@
     <link rel="stylesheet" href="../estilos/estiloProduccion.css">
 </head>
 <body>
-    <h2>Produccion y estudio de grabacion</h2>
-    <h3>Elstree Studios</h3>
-    <ul>
-        <li>Ubicación: Borehamwood, Hertfordshire, Inglaterra.</li>
-        <li>Fundación: En funcionamiento desde los años 1920, Elstree ha sido sede de numerosas producciones icónicas.</li>
-        <li>
-            Rol en Star Wars: En Una Nueva Esperanza (1977), Elstree Studios fue el lugar principal donde se construyeron y filmaron los elaborados sets interiores, incluyendo:
-            <ul>
-                <li>El interior de la Estrella de la Muerte</li>
-                <li>El interior del Halcón Milenario</li>
-                <li>Escenarios clave como el trono imperial, corredores de la nave Tantive IV, y la base rebelde.</li>
-            </ul>
-        </li>
-    </ul>
-    <h3>Datos curiosos sobre el rodaje</h3>
-    <ol>
-        <li>Modelos físicos y cámara lenta: Las naves espaciales no eran digitales, sino maquetas físicas grabadas con cámaras en movimiento lento para dar sensación de tamaño y velocidad.</li>
-        <li>La Estrella de la Muerte era una maqueta gigante: Medía más de 1,80 metros de diámetro, y se filmaron planos detallados desde todos los ángulos para las escenas de batalla.</li>
-        <li>Sonidos creados con objetos reales: El famoso sonido del sable láser se hizo combinando el zumbido de un proyector de películas con el ruido de un micrófono pasando frente a un televisor viejo. El rugido de Chewbacca es una mezcla de osos, leones y morsas.</li>
-    </ol>
-    <a id="Inicio" href="../index.html">Volver al inicio</a>
-    <a id="About"href="about.html">Sobre la pelicula</a>
-    <a id="Reparto" href="reparto.html">Reparto</a>
-    <a id="Curiosidades" href="curiosidades.html">Curiosidades y premios</a> 
+    <header id="Inicio">
+        <div id="menu-hamburgesa">
+            <a class="paginas" href="../index.html">Volver al inicio</a>
+            <a class="paginas" href="about.html">Sobre la pelicula</a>
+            <a class="paginas" href="reparto.html">Reparto</a>
+            <a class="paginas" href="curiosidades.html">Curiosidades y premios</a> 
+        </div>
+        <h2>PRODUCCION Y ESTUDIO DE GRABACION</h2>
+        <a href="#menu-hamburgesa" id="abrir"><img src="../imagenes/menu_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></a>
+        <a href="#" id="cerrar"><img id="cerrar-img" src="../imagenes/close_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></a>
+    </header>
+    <main>
+        <h3>Elstree Studios</h3>
+        <section class="info">
+                <ul>
+                    <li>Ubicación: Borehamwood, Hertfordshire, Inglaterra.</li>
+                    <li>Fundación: En funcionamiento desde los años 1920, Elstree ha sido sede de numerosas producciones icónicas.</li>
+                    <li>Rol en Star Wars: En Una Nueva Esperanza (1977), Elstree Studios fue el lugar principal donde se construyeron y filmaron los elaborados sets interiores, incluyendo:
+                        <ul>
+                            <li>El interior de la Estrella de la Muerte</li>
+                            <li>El interior del Halcón Milenario</li>
+                            <li>Escenarios clave como el trono imperial, corredores de la nave Tantive IV, y la base rebelde.</li>
+                        </ul>
+                    </li>
+                </ul>
+        </section>
+        <h3>Datos curiosos sobre el rodaje</h3>
+        <section class="info">
+        <ol>
+            <li>Modelos físicos y cámara lenta: Las naves espaciales no eran digitales, sino maquetas físicas grabadas con cámaras en movimiento lento para dar sensación de tamaño y velocidad.</li>
+            <li>La Estrella de la Muerte era una maqueta gigante: Medía más de 1,80 metros de diámetro, y se filmaron planos detallados desde todos los ángulos para las escenas de batalla.</li>
+            <li>Sonidos creados con objetos reales: El famoso sonido del sable láser se hizo combinando el zumbido de un proyector de películas con el ruido de un micrófono pasando frente a un televisor viejo. El rugido de Chewbacca es una mezcla de osos, leones y morsas.</li>
+        </ol>
+        </section>
+    </main>
+    <footer>
+        <h2>Dejanos tu comentario sobre la pelicula!</h2>
+        <form action="paginas/saludo.html">
+            <div id="datos-personales">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="user" id="nombre" required placeholder="Ingrese su nombre">
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required placeholder="Ingrese su apellido">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Ingrese su email">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contra" id="contraseña" required placeholder="Ingrese su contraseña">
+            </div>
+            <div id="comentario">    
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="comentario" required placeholder="Ingrese un comentario"></textarea>
+            </div>    
+                <button type="submit">Enviar</button>
+        </form>
+    </footer>
 </body>
 </html>

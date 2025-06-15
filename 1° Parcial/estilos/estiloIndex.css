@@ -4,8 +4,6 @@
 }
 
 #Banner {
-    display: block;
-    margin: 0 auto;
     width: 500px;
 }
 
@@ -17,50 +15,184 @@ h1 {
     background-color: white;
     font-family: 'StarJedi-DGRW', sans-serif;
     color: black;
-    padding: 10px;
+    margin: 0px;
 }
 
 section {
     margin-top: 30px;
 }
 
-a {
-    background-color: white;
-    color: black;
-    padding: 10px;
+.paginas {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    border-bottom: 2px solid white;
+}
 
+#Inicio {
+    display:flex;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+#cerrar {
+    display: none;
+}
+
+#menu-hamburgesa {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 200px;
+    background-color: black;
+    right: -1000px;
+    top: 17%;
+    position: fixed;
+    transition: right 0.7s ease;
+    z-index: 99;
+}
+
+#menu-hamburgesa:target {
+    right: 0px;
+}
+
+#menu-hamburgesa:target ~ #abrir {
+    display: none;
+}
+
+#menu-hamburgesa:target ~ #cerrar {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section p {
+    width: 300px;
 }
 
 footer {
     text-align: center;
 }
 
-#About {
-    margin-left: 350px;
-}
-
-#Reparto {
-    margin-left: 200px;
-}
-
-#Produccion {
-    margin-left: 200px;
-}
-
-#Curiosidades {
-    margin-left: 200px;
-}
-
 #CuentaX {    
     color: white;
-    margin-left: 700px;
     background-color: black;
     padding: 10px;
+   
 }
 
 #Insta {
     color: white;
-    margin-left: 100px;
     background-color: black;
     padding: 10px;
+   
+}
+
+#insta-x {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.toggle {
+    display: none;
+}
+
+.text {
+    position: absolute;
+    left: 10%;
+    width: 35%;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    text-align: left;
+    z-index: 1;
+}
+
+.image-box {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.image-box:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+
+}
+
+.toggle:checked ~ .container .image-box {
+    transform: translateX(40%);
+}
+
+.toggle:checked ~ .container .text {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+label {
+    cursor: pointer;
+}
+
+img {
+    max-height: 500px;
+    display: block;
+}
+
+#banda-sonora {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    display: block;
+}
+
+label {
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
+#comentario {
+    display: flex;
+    flex-direction: column;
+}
+
+#datos-personales {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
 }

@@ -8,20 +8,48 @@
     <link rel="stylesheet" href="../estilos/estiloAbout.css">
 </head>
 <body>
-    <h2>Sobre la pelicula</h2>
-    <p>Star Wars: Una Nueva Esperanza narra la historia de Luke Skywalker, un joven que vive en el desértico planeta Tatooine y cuyo destino cambia al encontrar un mensaje oculto en un androide llamado R2-D2. Este mensaje, enviado por la princesa Leia, pide ayuda para derrotar al tiránico Imperio Galáctico. Acompañado por el sabio Obi-Wan Kenobi, el contrabandista Han Solo, el wookiee Chewbacca y el androide C-3PO, Luke se une a la Rebelión en una arriesgada misión para destruir la Estrella de la Muerte, una poderosa estación espacial capaz de aniquilar planetas. En el proceso, descubre el poder de la Fuerza y comienza su camino como Jedi.</p>
-    <p>La película se estrenó en 1977, en un momento donde el cine de ciencia ficción no era considerado un género comercialmente exitoso. George Lucas, inspirado por mitologías clásicas, westerns, samuráis y seriales de aventuras de los años 30, creó un universo completamente nuevo y rompió con las convenciones narrativas y tecnológicas de la época. Contra todo pronóstico, la película se convirtió en un fenómeno cultural y marcó el inicio de la saga Star Wars, una franquicia que redefiniría la industria del entretenimiento.</p>
-    <p>Una Nueva Esperanza no solo revolucionó el cine por sus innovadores efectos especiales y su narrativa épica, sino que también cambió la forma en que se producen y comercializan las películas. Fue pionera en el concepto de franquicia, el marketing asociado a películas (merchandising) y el desarrollo de universos cinematográficos. Más allá de lo técnico, logró conectar emocionalmente con millones de personas a través de temas universales como el bien contra el mal, el viaje del héroe y la esperanza. En lo personal, su mayor logro es haber encendido la imaginación de generaciones, demostrando que la fantasía puede tener un enorme poder transformador cuando se cuenta con corazón y visión.</p>
-    <p>Star Wars: Una Nueva Esperanza fue filmada en múltiples locaciones alrededor del mundo, combinando escenarios naturales y sets construidos en estudios:</p>
-    <ul>
-        <li>Túnez – Planeta Tatooine</li>
-        <li>Inglaterra – Estudios Elstree</li>
-        <li>Guatemala – Templo Rebelde (Yavin 4)</li>
-        <li>Estados Unidos – Death Valley, California</li>
-    </ul>
-    <a id="Inicio"href="../index.html">Volver al inicio</a>
-    <a id="Reparto" href="./reparto.html">Reparto</a>
-    <a id="Produccion" href="./produccion.html">Produccion y estudio de grabacion</a>
-    <a id="Curiosidades" href="./curiosidades.html">Curiosidades y premios</a>
+    <header id="Inicio">
+        <div id="menu-hamburgesa">
+            <a class="paginas" href="../index.html">Volver al inicio</a>
+            <a class="paginas" href="./reparto.html">Reparto</a>
+            <a class="paginas" href="./produccion.html">Produccion y estudio de grabacion</a>
+            <a class="paginas" href="./curiosidades.html">Curiosidades y premios</a>
+        </div>
+        <h2>SOBRE LA PELICULA</h2>
+        <a href="#menu-hamburgesa" id="abrir"><img src="../imagenes/menu_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></a>
+        <a href="#" id="cerrar"><img id="cerrar-img" src="../imagenes/close_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></a>
+    </header>
+    <main>
+        <p>Star Wars: Una Nueva Esperanza narra la historia de Luke Skywalker, un joven que vive en el desértico planeta Tatooine y cuyo destino cambia al encontrar un mensaje oculto en un androide llamado R2-D2. Este mensaje, enviado por la princesa Leia, pide ayuda para derrotar al tiránico Imperio Galáctico. Acompañado por el sabio Obi-Wan Kenobi, el contrabandista Han Solo, el wookiee Chewbacca y el androide C-3PO, Luke se une a la Rebelión en una arriesgada misión para destruir la Estrella de la Muerte, una poderosa estación espacial capaz de aniquilar planetas. En el proceso, descubre el poder de la Fuerza y comienza su camino como Jedi.</p>
+        <p>La película se estrenó en 1977, en un momento donde el cine de ciencia ficción no era considerado un género comercialmente exitoso. George Lucas, inspirado por mitologías clásicas, westerns, samuráis y seriales de aventuras de los años 30, creó un universo completamente nuevo y rompió con las convenciones narrativas y tecnológicas de la época. Contra todo pronóstico, la película se convirtió en un fenómeno cultural y marcó el inicio de la saga Star Wars, una franquicia que redefiniría la industria del entretenimiento.</p>
+        <p>Una Nueva Esperanza no solo revolucionó el cine por sus innovadores efectos especiales y su narrativa épica, sino que también cambió la forma en que se producen y comercializan las películas. Fue pionera en el concepto de franquicia, el marketing asociado a películas (merchandising) y el desarrollo de universos cinematográficos. Más allá de lo técnico, logró conectar emocionalmente con millones de personas a través de temas universales como el bien contra el mal, el viaje del héroe y la esperanza. En lo personal, su mayor logro es haber encendido la imaginación de generaciones, demostrando que la fantasía puede tener un enorme poder transformador cuando se cuenta con corazón y visión.</p>
+        <p>Star Wars: Una Nueva Esperanza fue filmada en múltiples locaciones alrededor del mundo, combinando escenarios naturales y sets construidos en estudios:</p>
+        <ul>
+            <li>Túnez – Planeta Tatooine</li>
+            <li>Inglaterra – Estudios Elstree</li>
+            <li>Guatemala – Templo Rebelde (Yavin 4)</li>
+            <li>Estados Unidos – Death Valley, California</li>
+        </ul>
+    </main>
+    <footer>
+        <h2>Dejanos tu comentario sobre la pelicula!</h2>
+        <form action="saludo.html">
+            <div id="datos-personales">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="user" id="nombre" required placeholder="Ingrese su nombre">
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required placeholder="Ingrese su apellido">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Ingrese su email">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contra" id="contraseña" required placeholder="Ingrese su contraseña">
+            </div>
+            <div id="comentario">    
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="comentario" required placeholder="Ingrese un comentario"></textarea>
+            </div>    
+                <button type="submit">Enviar</button>
+        </form>
+    </footer>
 </body>
 </html>
