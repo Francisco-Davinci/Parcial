@@ -1,6 +1,8 @@
 p{
     background-color: black;
     width: 500px;
+    font-family: 'StarJedi-DGRW', sans-serif;
+    font-size: 20px;
 }
 
 body {
@@ -9,7 +11,19 @@ body {
 
 #Inicio {
     justify-content: right;
-    gap: 350px
+    gap: 555px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding-top: 120px;
 }
 
 #abrir, #cerrar {

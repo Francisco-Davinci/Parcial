@@ -4,7 +4,19 @@ body{
 
 #Inicio {
     justify-content: right;
-    gap: 370px;
+    gap: 570px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding-top: 120px;
 }
 
 #abrir, #cerrar {
@@ -15,14 +27,29 @@ body{
     top: 14%;
 }
 
-ol, ul {
-    list-style: none;
-    width: 550px;
-}
-
 .info {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ol, ul {
+    list-style: none;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.imagen {
+    width: 900px;
+}
+
+li {
+    font-size: 25px;
+    color: black;
 }
