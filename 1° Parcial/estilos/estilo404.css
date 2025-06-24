@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+h1 {
+    color: white;
+    font-family: 'StarJedi-DGRW', sans-serif;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'StarJedi-DGRW', sans-serif;
+    font-size: 30px;
+    background-color: black;
+}
