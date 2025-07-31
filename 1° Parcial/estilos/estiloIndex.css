@@ -91,11 +91,11 @@ section {
 section {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 section p {
-    width: 300px;
+    width: 400px;
     font-family: 'StarJedi-DGRW', sans-serif;
     font-size: 20px;
 }
@@ -134,6 +134,7 @@ footer {
     justify-content: center;
     height: 100vh;
     position: relative;
+    width: 50%;
 }
 
 .toggle {
@@ -168,7 +169,7 @@ footer {
 
 .toggle:checked ~ .container .text {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(-70%);
 }
 
 label {
@@ -210,4 +211,81 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 500px;
+}
+
+@media (width < 1500px) { 
+
+
+.toggle:checked ~ .container .text {
+    opacity: 1; 
+    transform: translateY(120%);
+}
+
+section p {
+    transform: translateX(25%);
+}
+
+#banda-sonora {
+    margin-top: 540px;
+}
+
+.toggle:checked ~ .container .image-box {
+    transform: translateX(0);
+}
+}
+
+@media (width < 1100px) { 
+
+section p {
+    transform: translateX(8%);
+}
+
+form {
+    flex-direction: column;
+}
+
+#datos-personales, #comentario, button {
+    margin-top: 5%;
+}
+
+button {
+    margin-bottom: 5%;
+}
+}
+
+@media (width < 800px) { 
+
+section p {
+    transform: translateX(-10%);
+} 
+
+.toggle:checked ~ .container .text {
+    transform: translateY(100%);
+}
+
+#Banner {
+    width: 500px;
+    height: 500px;
+}
+
+#banda-sonora {
+    margin-top: 400px;
+}
+
+}
+
+@media (width < 560px) {
+
+section p {
+    transform: translateX(-20%);
+} 
+
+#Banner {
+    width: 350px;
+    height: 350px;
+}
+
+h2 {
+    display: inline-block;
+}
 }
