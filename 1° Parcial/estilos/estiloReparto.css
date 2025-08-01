@@ -1,6 +1,6 @@
 p{
     background-color: black;
-    width: 500px;
+    width: 60%;
     font-family: 'StarJedi-DGRW', sans-serif;
     font-size: 20px;
 }
@@ -11,7 +11,7 @@ body {
 
 #Inicio {
     justify-content: right;
-    gap: 555px;
+    gap: 35%;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +27,7 @@ main {
 }
 
 #abrir, #cerrar {
-    margin-right: 300px;
+    margin-right: 10%;
 }
 
 #menu-hamburgesa{
@@ -46,4 +46,29 @@ main {
 ul {
     list-style: none;
     padding: 0px;
+}
+
+@media (width < 1020px) {
+    .info-foto {
+        flex-direction: column;
+    }
+
+    form {
+    flex-direction: column;
+    }
+
+    #datos-personales, #comentario, button {
+        margin-top: 5%;
+        }
+
+    button {
+        margin-bottom: 5%;
+    }
+}
+
+@media (width < 470px) { 
+    #darth-vader, #obi {
+        width: 350px;
+    }
+
 }

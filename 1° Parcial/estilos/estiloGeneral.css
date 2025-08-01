@@ -103,12 +103,14 @@ textarea {
 #comentario {
     display: flex;
     flex-direction: column;
+    width: 70%;
+    margin: auto;
 }
 
 #datos-personales {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 50%;
 }
 
 #Enviar {

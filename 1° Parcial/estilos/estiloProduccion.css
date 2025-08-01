@@ -8,7 +8,7 @@ body {
 
 #Inicio {
     justify-content: right;
-    gap: 450px;
+    gap:23%;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@ main {
 }
 
 #abrir, #cerrar {
-    margin-right: 200px;
+    margin-right: 10%;
 }
 
 ol, ul {
@@ -39,13 +39,17 @@ ol, ul {
     flex-direction: column;
     align-items: center;
     list-style: none;
-    width: 1000px;
+    width:70% ;
     background-color: white;
     padding: 20px;
 }
 
+#lista {
+    padding-left: 0px;
+    margin: auto;
+}
 .imagen {
-    width: 900px;
+    width:100%;
 }
 
 #estrella {
@@ -55,4 +59,38 @@ ol, ul {
 li {
     font-size: 25px;
     color: black;
+    width: 100%;
+}
+
+@media (width < 1100px) { 
+
+form {
+    flex-direction: column;
+}
+
+#datos-personales, #comentario, button {
+    margin-top: 5%;
+}
+
+button {
+    margin-bottom: 5%;
+}
+}
+
+@media (width < 812px) {
+    #elstree {
+        margin-top: 50px;
+    }
+}
+
+@media (width < 525px) {
+    #elstree {
+        margin-top: 70px;
+    }
+}
+
+@media (width < 418px) {
+    #ubicacion {
+        font-size: 19px;
+    }
 }
