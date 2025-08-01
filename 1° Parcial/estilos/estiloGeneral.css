@@ -131,3 +131,13 @@ textarea {
         display: none;
     }
 }
+
+@media (width < 458px) {
+
+
+    #menu-hamburgesa { 
+        width: 350px;
+    }
+
+    
+}

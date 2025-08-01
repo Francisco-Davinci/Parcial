@@ -63,18 +63,6 @@ section {
     display: none;
 }
 
-#menu-hamburgesa {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: 200px;
-    background-color: black;
-    right: -1000px;
-    top: 17%;
-    position: fixed;
-    transition: right 0.7s ease;
-    z-index: 99;
-}
 
 #menu-hamburgesa:target {
     right: 0px;
@@ -193,8 +181,9 @@ label {
 
 form {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 textarea {
@@ -205,12 +194,14 @@ textarea {
 #comentario {
     display: flex;
     flex-direction: column;
+    width: 70%;
+    margin: auto;
 }
 
 #datos-personales {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 50%;
 }
 
 @media (width < 1500px) { 
@@ -285,7 +276,30 @@ section p {
     height: 350px;
 }
 
-h2 {
-    display: inline-block;
+iframe {
+    width: 350px;
+    height: 350px;
 }
+}
+
+@media (width < 458px) { 
+    section p { 
+        width: 350px;
+    }
+
+    .toggle:checked ~ .container .text {
+        transform: translateY(79%);
+    }
+
+
+}
+
+@media (width < 401px) { 
+    section p { 
+        width: 280px;
+    }
+
+    #banda-sonora {
+        margin-top: 650px;
+    }       
 }
